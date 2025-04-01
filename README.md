@@ -11,6 +11,7 @@
 - Training data only without testing data
 
 ## 2025 MagNet Challenge 2 News and Registration
-- Please refer to this QR code for news and updates related to MagNet challenge 2 
+- Please refer to this QR code or the link for news and updates related to MagNet challenge 2
+- [MagNet Challenge 2](https://github.com/minjiechen/magnetchallenge-2/blob/main)
 <img src="img/GitHub_QR.png" width="100">
 
