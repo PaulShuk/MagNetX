@@ -9,3 +9,6 @@
 - [MagNetX Open Database Training Data for 10 materials](https://www.dropbox.com/scl/fo/o07x7fa6d5elev19pzd1w/AISuBEWf8LQVszFeoaTlqY4?rlkey=8ec7mqukfr9no61h193zb4qdb&dl=0)
 - [Readme](doc/README.pdf)
 - Training data only without testing data
+
+## 2025 MagNet Challenge 2 News and Registration
+- <img src="img/GitHub_QR.png" width="800">
