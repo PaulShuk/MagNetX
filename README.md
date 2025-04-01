@@ -11,5 +11,6 @@
 - Training data only without testing data
 
 ## 2025 MagNet Challenge 2 News and Registration
-- <img src="img/GitHub_QR.png" width="100">
+- Please refer to this QR code for news and updates related to MagNet challenge 2 
+<img src="img/GitHub_QR.png" width="100">
 
