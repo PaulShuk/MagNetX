@@ -1,3 +1,3 @@
-## Tutorial Training Data 
+# Tutorial Training Data 
 
-# This file includes the downsized exmaple training file used for the tutorial.
+## This file includes the downsized exmaple training file used for the tutorial.
