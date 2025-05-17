@@ -1,6 +1,7 @@
 % The purpose of this file is to convert the seperate sets of csv files
-% into 
-
+% into a single h5py file that stores all the raw B-H and T data. The data
+% is also pre-processed for the save_training file
+% Contact: Shukai Wang, sw0123@princeton.edu, Princeton University
 %% Clear previous varaibles and add the paths
 clear % Clear variable in the workspace
 clc % Clear command window
