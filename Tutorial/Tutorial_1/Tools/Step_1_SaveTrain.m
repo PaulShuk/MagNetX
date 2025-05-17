@@ -1,7 +1,6 @@
 % The purpose of this file is to save the training data used for the transient 
-% training with the MagNet Challenge 2 data. User needs to read each csv file 
-% seperately and then select points per seqeunce to train due to the according 
-% to size of the data seqeunce
+% training with the MagNet Challenge 2 data. User needs to read the h5py file 
+% and then select points per seqeunce to train according to size of the data seqeunce
 % Contact: Shukai Wang, sw0123@princeton.edu, Princeton University
 %% Clear previous varaibles and add the paths
 clear % Clear variable in the workspace
@@ -23,7 +22,7 @@ addpath([pwd, '\' , Database , '\Tools\Scripts' ]) % Add the folder where the pl
 [Xinit, Yinit, Xsize, Ysize, Nfont] = PlotStyle; close;
 write_or_read = 1; % 1 to write 0 to read;
 
-%% Initialize Parameters
+%% Initialize parameters
 window = 80;
 u_up = 4000; % Upper limit of the permeability.
 u_low = 1; % Lower bound of u. Between 0 to 2000 is saturation
@@ -37,7 +36,7 @@ array_length = [32016 20016 12816 8016 5008 3216 2016];
 num_indices = [10000 6000 6000 1000 600 600 400];
 
 
-%% Create Training Data
+%% Create training data
 for i = freq_level_start : freq_levels_stop % Cover all frequencies
 
     file_name = fullfile(path_root, [Material, '_.h5']); % User define the path to the folder the h5 (from step_0) is located
@@ -133,7 +132,7 @@ for i = freq_level_start : freq_levels_stop % Cover all frequencies
     end
 
 
-%% Saving the Data in hpy file
+%% Saving the data in hpy file
   
     h5create([path_root, '\' ,Material, save_name], ['/B_seq_f_', num2str(i)], size(B_seq_f'));
     h5create([path_root, '\' ,Material,save_name], ['/H_seq_f_', num2str(i)], size(H_seq_f'));
